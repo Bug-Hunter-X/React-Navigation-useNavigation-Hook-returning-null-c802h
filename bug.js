@@ -1,0 +1,1 @@
+This error occurs when using the `useNavigation` hook from `@react-navigation/native` inside a functional component that's not directly rendered by React Navigation's navigator.  For example, if you have a component rendered conditionally or within a deeply nested component structure that's several layers removed from the navigator, `useNavigation()` might return null.
